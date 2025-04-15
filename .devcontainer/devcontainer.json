@@ -1,0 +1,11 @@
+{
+    "name": "drosera-network-env",
+    "build": {
+      "dockerfile": "Dockerfile"
+    },
+    "settings": {
+      "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "postCreateCommand": "bash .devcontainer/post_create.sh"
+  }
+  
